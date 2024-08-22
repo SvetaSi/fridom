@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.galery{
+    margin: 1200;
+    margin: 0 auto;
+    background-color: rgb(99, 170, 231);
+    padding: 20px;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+
+}
+.item{
+    border: 1px solid black;
+    position: relative;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+  
+  
+}
+.item img:hover{
+    transform: scale(2);
+    filter:grayscale(1)
+}
+.item1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.leon{
+    grid-column: span 2;
+    grid-row: span 2
+}
+.buddha{
+    grid-column: span 1;
+    grid-row: span 2 ;
+}
+.dog{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.dog2{
+    grid-column: span 2;
+    grid-row: span 3;
+
+}
+.black1{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.lion{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.dovetail{
+    grid-column: span 2;
+    grid-row: span 2 ;
+}
+.hummingbird{
+    grid-column: span 1;
+    grid-row: span 2;
+} 
+.leo{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.owl1{
+    grid-column: span 1 ;
+    grid-row: span 2;
+}
+.leopard{
+    grid-column: span 1;
+    grid-row: span 5;
+}
+.leo2{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.spider{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.lion3{
+    grid-column: span 1;
+    grid-row: span 2;
+}
